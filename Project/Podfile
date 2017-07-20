@@ -9,4 +9,6 @@ target 'Project' do
 
 pod 'ZXConvenientCode', :path=>'../ZXConvenientCode'
 
+pod 'React', :path => '../react_native/node_modules/react-native/React.podspec', :subspecs => [ 'Core', 'RCTImage', 'RCTNetwork', 'RCTText', 'RCTWebSocket','RCTLinkingIOS', 'ART']
+
 end

@@ -1,4 +1,18 @@
 PODS:
+  - React/ART (0.38.0):
+    - React/Core
+  - React/Core (0.38.0)
+  - React/RCTImage (0.38.0):
+    - React/Core
+    - React/RCTNetwork
+  - React/RCTLinkingIOS (0.38.0):
+    - React/Core
+  - React/RCTNetwork (0.38.0):
+    - React/Core
+  - React/RCTText (0.38.0):
+    - React/Core
+  - React/RCTWebSocket (0.38.0):
+    - React/Core
   - ZXConvenientCode (1.0.2):
     - ZXConvenientCode/Interface (= 1.0.2)
     - ZXConvenientCode/Module (= 1.0.2)
@@ -7,15 +21,25 @@ PODS:
   - ZXConvenientCode/Module (1.0.2)
 
 DEPENDENCIES:
+  - React/ART (from `../react_native/node_modules/react-native/React.podspec`)
+  - React/Core (from `../react_native/node_modules/react-native/React.podspec`)
+  - React/RCTImage (from `../react_native/node_modules/react-native/React.podspec`)
+  - React/RCTLinkingIOS (from `../react_native/node_modules/react-native/React.podspec`)
+  - React/RCTNetwork (from `../react_native/node_modules/react-native/React.podspec`)
+  - React/RCTText (from `../react_native/node_modules/react-native/React.podspec`)
+  - React/RCTWebSocket (from `../react_native/node_modules/react-native/React.podspec`)
   - ZXConvenientCode (from `../ZXConvenientCode`)
 
 EXTERNAL SOURCES:
+  React:
+    :path: "../react_native/node_modules/react-native/React.podspec"
   ZXConvenientCode:
     :path: "../ZXConvenientCode"
 
 SPEC CHECKSUMS:
+  React: 3cdd13d7c8f6ad5c20216aa83e032f0ce4087944
   ZXConvenientCode: a1fe46812c798aa08dd7bebbe4a77db7ca611ce2
 
-PODFILE CHECKSUM: bd7f9147a1da146b5f5d1e76295d9cef09e8215c
+PODFILE CHECKSUM: 4f13a76b875114b7bfecffc916e4de20ad58f344
 
 COCOAPODS: 1.2.1
