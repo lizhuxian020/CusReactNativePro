@@ -1,0 +1,21 @@
+PODS:
+  - ZXConvenientCode (1.0.2):
+    - ZXConvenientCode/Interface (= 1.0.2)
+    - ZXConvenientCode/Module (= 1.0.2)
+  - ZXConvenientCode/Interface (1.0.2):
+    - ZXConvenientCode/Module
+  - ZXConvenientCode/Module (1.0.2)
+
+DEPENDENCIES:
+  - ZXConvenientCode (from `../ZXConvenientCode`)
+
+EXTERNAL SOURCES:
+  ZXConvenientCode:
+    :path: "../ZXConvenientCode"
+
+SPEC CHECKSUMS:
+  ZXConvenientCode: a1fe46812c798aa08dd7bebbe4a77db7ca611ce2
+
+PODFILE CHECKSUM: bd7f9147a1da146b5f5d1e76295d9cef09e8215c
+
+COCOAPODS: 1.2.1
