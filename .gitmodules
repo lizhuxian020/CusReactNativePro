@@ -1,3 +1,6 @@
 [submodule "ZXConvenientCode"]
 	path = ZXConvenientCode
 	url = https://github.com/lizhuxian020/ZXConvenientCode.git
+[submodule "react_native"]
+	path = react_native
+	url = https://github.com/lizhuxian020/react_native.git
